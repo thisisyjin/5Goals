@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/5Goals/static/css/main.db498819.css",
+    "main.js": "/5Goals/static/js/main.1e6d6782.js",
+    "static/media/check.svg": "/5Goals/static/media/check.b148586a387fe4843258b7fed3bc0b24.svg",
+    "index.html": "/5Goals/index.html",
+    "main.db498819.css.map": "/5Goals/static/css/main.db498819.css.map",
+    "main.1e6d6782.js.map": "/5Goals/static/js/main.1e6d6782.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db498819.css",
+    "static/js/main.1e6d6782.js"
+  ]
+}
