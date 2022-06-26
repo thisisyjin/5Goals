@@ -63,12 +63,19 @@ const Tutorial = () => {
       <TutorialTitle>Tutorial</TutorialTitle>
       <InfoBlock>
         Write today’s goals <br /> and press <span className="red">ENTER!</span>
-        <StyledImg src="img/example.gif" alt="example" trans />
+        <StyledImg
+          src={`${process.env.PUBLIC_URL}/img/example.gif`}
+          alt="example"
+          trans
+        />
       </InfoBlock>
       <InfoBlock>
         When you complete goals, <br />
         <span className="red">click here</span> to move!
-        <StyledImg src="img/clickHere.png" alt="ball" />
+        <StyledImg
+          src={`${process.env.PUBLIC_URL}/img/clickHere.png`}
+          alt="ball"
+        />
       </InfoBlock>
       <InfoBlock right>
         If you want edit it,
@@ -79,7 +86,11 @@ const Tutorial = () => {
         If you achieve 5 goals,
         <br />
         you’ll get an <span className="yellow">award!</span>
-        <StyledImg src="img/trophy.png" alt="trophy" small />
+        <StyledImg
+          src={`${process.env.PUBLIC_URL}/img/trophy.png`}
+          alt="trophy"
+          small
+        />
       </InfoBlock>
       <ButtonBlock>
         <StyledButton to="/">Close</StyledButton>

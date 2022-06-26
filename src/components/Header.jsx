@@ -8,6 +8,8 @@ const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
+  margin-bottom: 40px;
 `;
 
 const HeaderTitle = styled(Link)`

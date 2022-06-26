@@ -7,7 +7,7 @@
 
 ---
 
-# [🌐 배포]()
+# [🌐 배포](https://thisisyjin.github.io/5Goals/)
 
 - `gh-pages`로 베포.
 - [⚠️ 프로젝트 미완성] 아직 Recoil 적용과 Award 부분 수정중에 있음.

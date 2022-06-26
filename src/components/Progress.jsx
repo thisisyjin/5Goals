@@ -88,11 +88,11 @@ const Progress = () => {
     : [false, false, false, false, false];
 
   const src = [
-    '/img/ball/basicBall.png',
-    '/img/ball/smileBall.png',
-    '/img/ball/winkBall.png',
-    '/img/ball/heartBall.png',
-    '/img/ball/trophyBall.png',
+    `${process.env.PUBLIC_URL}/img/ball/basicBall.png`,
+    `${process.env.PUBLIC_URL}/img/ball/smileBall.png`,
+    `${process.env.PUBLIC_URL}/img/ball/winkBall.png`,
+    `${process.env.PUBLIC_URL}/img/ball/heartBall.png`,
+    `${process.env.PUBLIC_URL}/img/ball/trophyBall.png`,
   ];
 
   const [written, setWritten] = useState(writtenValue);
@@ -178,7 +178,12 @@ const Progress = () => {
           </>
         ))}
         <img src={imgSrc} alt="basicBall" width="90" className="ball" />
-        <img src="/img/flag.png" alt="goal" width="120" className="flag" />
+        <img
+          src={`${process.env.PUBLIC_URL}/img/flag.png`}
+          alt="goal"
+          width="120"
+          className="flag"
+        />
       </CheckBoxArea>
       <InputArea>
         {goals.map((goal, i) => (
